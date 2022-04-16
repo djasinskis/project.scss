@@ -9,6 +9,7 @@ $text-color:gray;
       background-size: cover;
       background-position: center;
       box-shadow: 0 3px 5px black;
+      margin-bottom: 15px;
       }
 @mixin article {
     background: url(/content/bg-masthead.jpg);
@@ -101,6 +102,10 @@ background: #f8f9fa;
 display: flex;
 justify-content: center;
 align-items: center;
+
+h3{
+  margin: 10px 0;
+}
 
 .item {
   height: 400px;
