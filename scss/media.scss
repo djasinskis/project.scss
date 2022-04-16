@@ -1,0 +1,143 @@
+@media (max-width:650px) {
+    article {
+        p {
+            width: 90%;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            input {
+                width: 85%;
+                margin: 0;
+                padding: 10px 0;
+            }
+
+            button {
+                margin-top: 15px;
+                width: 85%;
+            }
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+
+        .item {
+            height: 300px;
+            width: 90%;
+        }
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 100%;
+        }
+
+        .tile1 {
+            order: 2;
+        }
+
+        .tile2 {
+            order: 1;
+        }
+
+        .tile3 {
+            order: 3;
+        }
+
+        .tile4 {
+            order: 4;
+        }
+
+        .tile5 {
+            order: 6;
+        }
+
+        .tile6 {
+            order: 5;
+        }
+    }
+
+    .reviews {
+        .heading {
+            font-size: 1.5em;
+            width: 50%;
+            text-align: center;
+        }
+
+        .content-bottom {
+            margin: 0 auto;
+        }
+    }
+
+    .content-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .testimonial {
+            width: 100%;
+            height: 250px;
+            margin: 20px 0;
+
+            .avatar1,
+            .avatar2,
+            .avatar3 {
+                height: 150px;
+                width: 150px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .bottom {
+        height: 400px;
+
+        p {
+            width: 70%;
+        }
+
+        div {
+            width: 100%;
+        }
+    }
+
+    .footer {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+
+        .about {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+
+            ul {
+                font-size: 1.2em;
+                flex-wrap: wrap;
+                margin: 0;
+
+                li {
+                    margin: 10px;
+                }
+            }
+        }
+
+        p {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.footer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        height: 150px;
+    }
+
+    i {
+        color: $button-bg;
+        font-size: 2em;
+        margin: 25px;
+    }
+
+    p {
+        color: $text-color;
+        font-size: 0.8em;
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    ul {
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    a {
+        text-decoration: none;
+        color: $button-bg;
+        margin: 10px;
+        font-size: 0.9em;
+    }
+
+    .about {
+        width: 65%;
+        @include footer-content();
+
+        ul {
+            margin-left: -35px;
+            list-style-type: none;
+        }
+    }
+
+    .socialmedia {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

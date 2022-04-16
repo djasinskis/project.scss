@@ -1,0 +1,17 @@
+nav {
+    height: 50px;
+    background: $bg-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    button {
+        background: $button-bg;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+
+    }
+}

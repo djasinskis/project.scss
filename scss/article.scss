@@ -1,0 +1,42 @@
+article {
+    height: 500px;
+    width: 100%;
+    background: url(../../content/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    p {
+        color: white;
+        width: 60%;
+        font-size: 2em;
+        text-align: center;
+        margin: 0 50px;
+    }
+
+    .form {
+        margin-top: 50px;
+
+        input {
+            width: 350px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-right: 20px;
+        }
+
+        button {
+            background: $button-bg;
+            width: 125px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+
+        }
+    }
+}

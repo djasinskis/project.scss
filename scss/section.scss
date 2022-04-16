@@ -1,0 +1,36 @@
+section {
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        margin: 10px 0;
+    }
+
+    .item {
+        height: 400px;
+        padding: 15px;
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            font-size: 5rem;
+            color: $button-bg;
+        }
+
+        h2 {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        p {
+            color: $text-color;
+            text-align: center;
+            line-height: 1.5em;
+        }
+    }
+}

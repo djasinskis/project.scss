@@ -1,0 +1,52 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        color: $text-color;
+    }
+
+    .heading {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-bottom {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px auto;
+
+        .comment {
+            width: 80%;
+            font-size: 0.9em;
+        }
+    }
+
+    .avatar1 {
+        background: url(../../content/testimonials-1.jpg);
+        @include testimonials();
+    }
+
+    .avatar2 {
+        background: url(../../content/testimonials-2.jpg);
+        @include testimonials();
+    }
+
+    .avatar3 {
+        background: url(../../content/testimonials-3.jpg);
+        @include testimonials();
+    }
+
+    .testimonial {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
