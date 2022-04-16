@@ -364,12 +364,21 @@ main {
     }
   }
   .footer {
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     .about{
       width: 100%;
       text-align: center;
+      margin-top: 30px;
+      ul {
+        font-size: 1.2em;
+        flex-wrap: wrap;
+        margin: 0;
+        li{
+          margin: 10px;
+        }
+      }
     }
 
     p{
